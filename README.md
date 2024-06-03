@@ -12,7 +12,7 @@ This repository contains the following files and folder:
 * The "obesity-insecurity" folder contains models to predict obesity rates and low food security rates.
 * The "persistent-poverty" folder contains classification models to label counties as persistent pvoerty counties or not.
   
-You can also find our presentation ("Presentation.pdf" or "Presentation recording.mp4"), executive summary ("Executive Summary.pdf"), some exploratory data analysis ("Erdos Project EDA Preliminary.ipynb" and "Food Environment Atlas.ipynb")
+You can also find our presentation ("Presentation.pdf" or "Presentation recording.mp4"), executive summary ("Executive Summary.pdf"), and some exploratory data analysis ("Erdos Project EDA Preliminary.ipynb" and "Food Environment Atlas.ipynb")
   
 ## Introduction
 The Food Environment Atlas is an aggregated dataset and visualization web app consisting of U.S. county, state, and regional data on over 280 indicators pertaining to food consumption, health, and community. The atlas comprises nine categories: Access and Proximity to Grocery Stores, Store Availability, Restaurant Availability and Expenditures, Food Assistance, Food Insecurity, Food Taxes, Local Foods, Health and Physical Activity, and Socioeconomic Characteristics. Data from as early as 2007 and as late as 2018 is included, and many indicators have data from multiple years. The atlas’ visualizer allows users to observe data visually and develop an intuition for the complexities surrounding endemic hunger and illness.
