@@ -11,6 +11,7 @@ This repository contains the following files and folder:
 * The "data" folder contains .csv and .xls files containing datasets used in the various models (including testing, training, and holdout sets).
 * The "obesity-insecurity" folder contains models to predict obesity rates and low food security rates.
 * The "persistent-poverty" folder contains classification models to label counties as persistent pvoerty counties or not.
+  
 You can also find our presentation ("Presentation.pdf" or "Presentation recording.mp4"), executive summary ("Executive Summary.pdf"), some exploratory data analysis ("Erdos Project EDA Preliminary.ipynb" and "Food Environment Atlas.ipynb")
   
 ## Introduction
