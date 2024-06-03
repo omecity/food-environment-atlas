@@ -14,7 +14,7 @@ Our goal is to predict multiple outcomes: adult obesity rate in 2017 (variable c
 ## Data preprocessing and cleaning
 In our exploratory data analysis, we considered indicators that were collected up to two years prior to a given response. That is, any data collected between 2015 and 2017 were considered as features for adult obesity rate and household food insecurity. As an exception to this, we also considered indicators which typically persist over multiple decades, such as whether a given county is considered to be a metro area (‘METRO13’).
 
-## Missing data values for county data were imputed with either the national or state mean value, while state data was extrapolated from county data by taking a weighted average. We also included external data consisting of county population estimates and latitude/longitude, both from the U.S. Census Bureau. We updated the data for Kusilvak Census Area, AK and Oglala Lakota County, SD, with the current names and FIPS identifiers for these counties. Moreover, we combined the entries for Bedford County, VA and the former independent city, Bedford, VA, and recalculated data values to represent Bedford’s reversion to being a town within Bedford County in 2013.
+Missing data values for county data were imputed with either the national or state mean value, while state data was extrapolated from county data by taking a weighted average. We also included external data consisting of county population estimates and latitude/longitude, both from the U.S. Census Bureau. We updated the data for Kusilvak Census Area, AK and Oglala Lakota County, SD, with the current names and FIPS identifiers for these counties. Moreover, we combined the entries for Bedford County, VA and the former independent city, Bedford, VA, and recalculated data values to represent Bedford’s reversion to being a town within Bedford County in 2013.
 
 For county data, we also implemented a custom train-test split and k-fold cross-validation routine that stratifies the data geographically. This is because we wanted to stratify our splits by multiple categorical variables including state, but stratifying by state introduced imbalances in other variables. Our custom splits ensure that the closest neighboring counties to a county in the test set are in the training set, while still maintaining the same relative frequency of non-geographic categorical features.
 
@@ -27,5 +27,7 @@ Persistent-Poverty: We trained logistic regression, LDA, QDA, and random forest 
 
 ## Citations
 \[1\] Economic Research Service (ERS), U.S. Department of Agriculture (USDA). Food Environment Atlas. https://www.ers.usda.gov/data-products/food-environment-atlas/
+
 \[2\] United States Census Bureau. Population and Housing Unit Estimates Tables. https://www.census.gov/programs-surveys/popest/data/tables.html
+
 \[3\] United States Census Bureau. Gazetteer Files. https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.2017.html
